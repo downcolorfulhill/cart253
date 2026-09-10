@@ -14,7 +14,7 @@
 */
 function setup() {
     // A 640x480 canvas
-    createCanvas(1530, 799);
+    createCanvas(1499, 799);
 
     // Don't show the cursor
     noCursor();
@@ -26,7 +26,7 @@ function setup() {
 */
 function draw() {
     // Make the background black (specified as RGB)
-    background(932, 38, 920);
+    background(92, 38, 432);
 
     // Draw a pyramid
     // How many levels for the pyramid
@@ -49,7 +49,7 @@ function draw() {
         // (320, 320) with a size based on the level
         // e.g. level 1 will be a 48x48 rectangle and
         // level 10 will be a 480x480 rectangle
-        rect(133, 600, level * 69, level * 4);
+        rect(333, 200, level * 24, level * 34);
         pop();
     }
 
@@ -58,8 +58,8 @@ function draw() {
     // No line around the shape
     noStroke();
     // Make it red (RGB)
-    fill(255, 0, 0);
+    fill(55, 98, 40);
     // Draw a 100x100 circle at the mouse position
-    ellipse(mouseX, mouseY, 100, 100);
+    ellipse(mouseX, mouseY, 222, 333);
     pop();
 }
