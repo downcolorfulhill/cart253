@@ -12,7 +12,7 @@ This is the repository for my prototyping work in CART 253.
 
 This bit should have some images of the program running so that the reader has a sense of what it looks like. For example:
 
-> ![Image of my banner](./assets/images/banner.png)
+> ![Image of my banner](topics/website/version-control-workflow/assets/images/banner.png)
 
 ## Attribution
 
