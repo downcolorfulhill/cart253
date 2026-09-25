@@ -9,7 +9,7 @@
  * Creates the canvas
  */
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(400, 800);
 }
 
 /**
