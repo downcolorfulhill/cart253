@@ -1,66 +1,91 @@
 /**
- * Literal Concentric circles
- * Pippin Barr
- *
- * It is some concentric circles. Laborious.
+ * class one
+ * benjy
+ * 
  */
 
+"use strict";
+
 /**
- * Creates the canvas
- */
+ * OH LOOK I DIDN'T DESCRIBE SETUP!!
+*/
 function setup() {
-  createCanvas(800, 800);
+createCanvas(500,500);
+background(30,90,90);
+
+
 }
+
 
 /**
- * Draws the concentric circles
- */
+ * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+*/
 function draw() {
-  background("#257524");
-  
-  // We want this to apply to *all* circles, so it can go out here
-  noStroke();
-  
-  // Begin circles diminishing in size and darkness
-  push();
-  fill(0);
-  rect(200, 200, 300, 5);
-  pop();
-  
-  push();
-  fill(50);
-  rect(200, 200, 250, 66);
-  pop();
-  
-  push();
-  fill(100);
-  rect(200, 200, 200, 400);
-  pop();
-  
-  push();
-  fill(150);
-  rect(200, 200, 150, 68);
-  pop();
-  
-  push();
-  fill(200);
-  rect(200, 200, 100, 500);
-  pop();
-  
-  push();
-  fill(250);
-  rect(200, 200, 50, 300);
-  pop();
-  
-  // Or you could do it like this (we will learn this later)
+background(30,90,90);
+drawSky();
+drawRoof();
+draw_House_Body();
+draw_triangles();
+draw_Ellipses();
+drawPerson();
 
-  /**
-  // Draw six diminishing circles with increasing fill shade
-  for (let i = 0; i < 6; i++) {
-    fill(i * 50);
-    ellipse(200, 200, i * 10);
-  }
-  */
+
 }
+// function to draw sky
+function drawSky() {
+    push();
+fill(199,99,9);
+rect(0,0,870,240);
+pop();
+}
+       
+// function to draw roof
+function drawRoof() {
+push();
+fill(29,199,239);
+triangle(130,325,165,260,200,325);
+pop();
+}
+// function to draw house body
+function draw_House_Body() {
+push();
+fill(329,139,339);
+rect(130,325,70,70);
+pop();
+
+}
+
+// function to draw triangles
+
+function draw_triangles() {
+push();
+fill(29,199,39);
+triangle(130,99,5,20,200,95);
+pop();
+
+}
+// function to draw sun 
+function draw_Ellipses() {
+
+    fill(255,199,99);
+    stroke(515,345,55);
+    strokeWeight(4);
+ ellipse(500, 30, 340, 240);
+
+
+   fill(5,199,99);
+    stroke(515,345,55);
+    strokeWeight(4);
+ ellipse(300, 330, 40, 40);
+
+}
+
+function drawPerson() {
+    line(320, 390, 320, 310);
+
+}
+
+
+
 
 
