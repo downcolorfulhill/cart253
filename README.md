@@ -2,7 +2,7 @@
 
 Benjy McIntyre
 
-[View this project online](https://downcolorfulhill.github.io.com/cart253/)
+
 
 ## Description
 
@@ -10,7 +10,7 @@ This is the repository for my prototyping work in CART 253.
 
 ## Screenshot(s)
 
-This bit should have some images of the program running so that the reader has a sense of what it looks like. For example:
+:
 
 > ![Image of my banner](topics/website/version-control-workflow/assets/images/banner.png)
 
