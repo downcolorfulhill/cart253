@@ -30,7 +30,7 @@ function drawAlien() {
   noStroke();
 
 
-  // Draw the head
+  // Draw the beautiful mouth
   push();
   fill(100);
   rect (170, 100, 300, 40);
@@ -38,14 +38,14 @@ function drawAlien() {
   
 
 
-  // Draw the nostrils
+  // Draw the EYES
   push();
   fill(0);
   rect(200, 30, 10, 10);
   rect(400, 35, 10, 10);
   pop();
 
-  // Draw the mouth
+  // Draw the heart
   push();
   strokeWeight(150);
   stroke(100, 200, 0);
