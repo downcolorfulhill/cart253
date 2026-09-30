@@ -44,7 +44,7 @@ function draw() {
 
 
     let distance = dist(creature.x,creature.y,mouseX,mouseY);
-    let mouseIsMoving = (movedX >0 ||movedY >0)
+    let mouseIsMoving = (movedX >0 || movedY >0)
     //console.log(distance);
     if(distance < creature.w/2 && mouseIsMoving){
         creature.currentFill = creature.fillStates.angry;
