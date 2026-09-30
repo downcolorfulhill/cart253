@@ -1,9 +1,6 @@
 /**
- * An Alien
- * Pippin Barr
- *
- * It is an alien. Yep, drawing anything moderately complex with
- * shapes is pretty painful!
+ instructions 3
+ benjy
  */
 
 const { useEffect } = require("react");
