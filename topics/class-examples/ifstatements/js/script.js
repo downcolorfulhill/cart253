@@ -31,7 +31,7 @@ currentFill:"#b5c221",
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
-    createCanvas(600,600);
+    createCanvas(800,600);
 
 }
 
