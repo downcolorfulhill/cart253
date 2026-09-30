@@ -31,7 +31,7 @@ currentFill:"#b5c221",
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
-    createCanvas(500,500);
+    createCanvas(600,600);
 
 }
 
@@ -40,6 +40,17 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
+
+
+    if(mouseIsPressed === true){
+        creature.currentFill = creature.fillStates.angry;
+    
+
+}
+else{
+    creature.currentFill = creature.fillStates.neutral;
+}
+
     background(0);
     push();
 //body
