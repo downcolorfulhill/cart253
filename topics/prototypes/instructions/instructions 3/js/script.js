@@ -36,7 +36,7 @@ function drawAlien() {
   // Draw the head
   push();
   fill(100);
-  rect (170, 100, 250, 40);
+  rect (170, 100, 300, 40);
   pop();
   
 
