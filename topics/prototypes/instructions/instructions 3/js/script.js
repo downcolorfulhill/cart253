@@ -6,6 +6,8 @@
  * shapes is pretty painful!
  */
 
+const { useEffect } = require("react");
+
 /**
  * Creates the canvas
  */
@@ -58,8 +60,8 @@ function drawAlien() {
 
   // Draw the mouth
   push();
-  strokeWeight(10);
-  stroke(0, 200, 0);
+  strokeWeight(150);
+  stroke(100, 200, 0);
   noFill();
   angleMode(DEGREES);
   arc(320, 240, 200, 340, 65, 115);
