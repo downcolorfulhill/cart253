@@ -47,6 +47,9 @@ function draw() {
     
 
 }
+else if(keyIsPressed === true){
+    creature.currentFill = creature.fillStates.happy;
+}
 else{
     creature.currentFill = creature.fillStates.neutral;
 }
