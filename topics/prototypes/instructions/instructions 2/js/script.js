@@ -7,7 +7,7 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * created the canvas
 */
 function setup() {
 
@@ -18,7 +18,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * drew my art masterpiece
 */
 function draw() {
     background(25,20,216);
