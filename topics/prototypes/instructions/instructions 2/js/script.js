@@ -12,7 +12,7 @@
 function setup() {
 
     createCanvas(900,700);
-    background(50,50,16);
+    background(25,20,216);
 
 }
 
@@ -21,7 +21,7 @@ function setup() {
  * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-    background(50,50,16);
+    background(25,20,216);
     fill(29,99,499);
     stroke(515,345,55);
     strokeWeight(4);
