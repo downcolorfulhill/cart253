@@ -32,30 +32,20 @@ function drawAlien() {
   // Apply this as the default
   noStroke();
 
-  // Draw the body
-  push();
-  fill(127);
-  rect(320, 4, 300, 200);
-  pop();
 
   // Draw the head
   push();
   fill(100);
-  rect (320, 240, 250, 400);
+  rect (170, 100, 250, 40);
   pop();
   
-  // Draw the eyes
-  push();
-  fill(0);
-  rect(250, 240, 80, 250);
-  rect(390, 240, 80, 250);
-  pop();
+
 
   // Draw the nostrils
   push();
   fill(0);
-  rect(300, 350, 10, 10);
-  rect(340, 350, 10, 10);
+  rect(200, 30, 10, 10);
+  rect(400, 35, 10, 10);
   pop();
 
   // Draw the mouth
@@ -64,6 +54,6 @@ function drawAlien() {
   stroke(100, 200, 0);
   noFill();
   angleMode(DEGREES);
-  arc(320, 240, 200, 340, 65, 115);
+  arc(320, 200, 200, 340, 65, 115);
   pop();
 }
