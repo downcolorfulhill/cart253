@@ -33,27 +33,27 @@ function drawAlien() {
   // Draw the body
   push();
   fill(127);
-  ellipse(320, 480, 300, 200);
+  rect(320, 4, 300, 200);
   pop();
 
   // Draw the head
   push();
   fill(100);
-  ellipse(320, 240, 250, 400);
+  rect (320, 240, 250, 400);
   pop();
   
   // Draw the eyes
   push();
   fill(0);
-  ellipse(250, 240, 80, 250);
-  ellipse(390, 240, 80, 250);
+  rect(250, 240, 80, 250);
+  rect(390, 240, 80, 250);
   pop();
 
   // Draw the nostrils
   push();
   fill(0);
-  ellipse(300, 350, 10, 10);
-  ellipse(340, 350, 10, 10);
+  rect(300, 350, 10, 10);
+  rect(340, 350, 10, 10);
   pop();
 
   // Draw the mouth
