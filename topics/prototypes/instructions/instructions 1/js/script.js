@@ -84,6 +84,9 @@ function draw_Ellipses() {
 
 function drawPerson() {
     line(300, 400, 300, 340);
+    line(300, 400, 0, 30);
+    line(830, 80, 300, 400);
+    line(400, 400, 400, 340);
 
 }
 
