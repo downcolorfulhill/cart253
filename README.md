@@ -8,7 +8,6 @@ Benjy M.
 
 This is the repository for my prototyping work in CART 253.
 
-## Screenshot(s)
 
 :
 
