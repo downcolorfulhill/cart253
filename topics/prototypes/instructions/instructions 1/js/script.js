@@ -57,13 +57,25 @@ function draw_House_Body() {
 
 
 
-// function to draw triangles
+// function to draw funky sun rays 
 
 function draw_triangles() {
     push();
     fill(29, 199, 39);
-    triangle(130, 99, 5, 20, 200, 95);
+    triangle(130, 99, 115, 20, 500, 95);
     pop();
+
+    push();
+    fill(29, 199, 39);
+    triangle(230, 199, 1115, 20, 500, 95);
+    pop();
+
+    push();
+    fill(29, 199, 39);
+    triangle(330, 199, 1115, 120, 600, 195);
+    pop();
+
+
 
 }
 // function to draw sun 
@@ -83,10 +95,10 @@ function draw_Ellipses() {
 }
 
 function drawPerson() {
-    line(300, 400, 300, 340);
+    line(300, 500, 300, 350);
     line(300, 400, 0, 30);
     line(830, 80, 300, 400);
-    line(400, 400, 400, 340);
+
 
 }
 
