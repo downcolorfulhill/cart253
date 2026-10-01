@@ -7,7 +7,7 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * creating a canvas and background
 */
 function setup() {
     createCanvas(500, 500);
@@ -18,7 +18,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * i am drawing the things that you see
 */
 function draw() {
     background(30, 90, 90);
