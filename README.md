@@ -1,6 +1,6 @@
 # Prototyping: Website
 
-Benjy McIntyre
+Benjy M.
 
 
 
