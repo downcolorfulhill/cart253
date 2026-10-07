@@ -21,7 +21,7 @@ This is the repository for my prototyping work in CART 253.
 
 > ![Image of p1](topics/prototypes/assets/images/p1.png)
 
-2. Flag of Mumbojumbo
+2. Flag of Mumbojumbo Nation
 
 : 
 
