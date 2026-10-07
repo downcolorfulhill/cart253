@@ -71,7 +71,11 @@ function mouseReleased() {
 // }
 
 function mouseWheel(event) {
-    console.log(event.deltaY)
+    //console.log(event.deltaY)
     // mouseTriggerBall.size = constrain(mouseTriggerBall.size, 5, 200)
     mouseTriggerBall.size = mouseTriggerBall.size - event.deltaY;
+}
+
+function mouseMoved() {
+    mouseTriggerBall.x = mouseX;
 }
