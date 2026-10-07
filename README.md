@@ -16,13 +16,22 @@ This is the repository for my prototyping work in CART 253.
 ## Prototyping: Instructions
 
 1. Big Happy Day
+
+: 
+
 > ![Image of p1](topics/prototypes/assets/images/p1.png)
 
-2.
-(topics/prototypes/assets/images/p2.png)
+2. Flag of Mumbojumbo
 
-3.
-(topics/prototypes/assets/images/p3.png)
+: 
+
+> ![Image of p2](topics/prototypes/assets/images/p2.png)
+
+3. The Sweetest Sweetheart
+
+: 
+
+> ![Image of p3](topics/prototypes/assets/images/p3.png)
 
 
 ## Attribution
