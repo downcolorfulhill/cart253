@@ -15,6 +15,11 @@ This is the repository for my prototyping work in CART 253.
 
 ## Prototyping: Instructions
 
+1. 
+
+2.
+
+3.
 
 
 ## Attribution
