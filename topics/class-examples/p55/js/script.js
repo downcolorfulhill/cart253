@@ -29,6 +29,8 @@ let mouseTriggerBall = {
 function setup() {
     createCanvas(500, 500);
     background(0);
+    setTimeout(changeBallColorToWhite, 5000);
+    setInterval(changeBallColor, 2000)
 
 }
 
@@ -45,10 +47,37 @@ function draw() {
 
 }
 
+function changeBallColor() {
+    mouseTriggerBall.fillColor.r = random(255);
+    mouseTriggerBall.fillColor.g = random(255);
+    mouseTriggerBall.fillColor.b = random(255);
+}
+
 function moveBall() {
     mouseTriggerBall.x =
         mouseTriggerBall.x + mouseTriggerBall.speed;
 }
+
+// function keyPressed(event) {
+//     console.log(event.key);
+//     if (event.key === 'r') {
+//         mouseTriggerBall.speed = 2;
+//     }
+//     if (event.key === 's') {
+//         mouseTriggerBall.fillColor.r = 255;
+
+//     }
+
+
+// }
+// function keyReleased() {
+//     mouseTriggerBall.speed = 0;
+// }
+// function keyTyped() {
+
+// }
+
+
 
 // function mousePressed(){
 // console.log(mouseX, mouseY)
@@ -58,24 +87,24 @@ function moveBall() {
 // }
 
 
-function mousePressed() {
-    mouseTriggerBall.speed = 2;
-}
-function mouseReleased() {
-    mouseTriggerBall.speed = 0;
-}
+// function mousePressed() {
+//     mouseTriggerBall.speed = 2;
+// }
+// function mouseReleased() {
+//     mouseTriggerBall.speed = 0;
+// }
 
 // function mouseWheel() {
 //     mouseTriggerBall.size = constrain(mouseTriggerBall.size,5,200 )
 //     mouseTriggerBall.size = mouseTriggerBall.size - 5;
 // }
 
-function mouseWheel(event) {
-    //console.log(event.deltaY)
-    // mouseTriggerBall.size = constrain(mouseTriggerBall.size, 5, 200)
-    mouseTriggerBall.size = mouseTriggerBall.size - event.deltaY;
-}
+// function mouseWheel(event) {
+//     //console.log(event.deltaY)
+//     // mouseTriggerBall.size = constrain(mouseTriggerBall.size, 5, 200)
+//     mouseTriggerBall.size = mouseTriggerBall.size - event.deltaY;
+// }
 
-function mouseMoved() {
-    mouseTriggerBall.x = mouseX;
-}
+// function mouseMoved() {
+//     mouseTriggerBall.x = mouseX;
+// }
