@@ -10,6 +10,18 @@ let ufo = {
     fill: 255
 };
 
+let ufo2 = {
+    // Position
+    x: 300,
+    y: 475,
+    // Dimensions
+    width: 250,
+    height: 100,
+    // Fill colour (greyscale)
+    fill: 255
+};
+
+
 // Shade to fill the sky (background)
 let skyShade = 0;
 
@@ -32,11 +44,11 @@ function draw() {
 
     // The UFO goes up
     // We have lift-off!
-    ufo.y = ufo.y - 2;
+    ufo.y = ufo.y - 1;
 
     // The UFO goes right
     // Course adjustment for Beetlegeuse
-    ufo.x = ufo.x + 0.5;
+    ufo.x = ufo.x + 1;
 
     // UFO gradually becomes darker
     // I mean, activating quantum thrust transition...
@@ -53,4 +65,6 @@ function draw() {
     noStroke();
     ellipse(ufo.x, ufo.y, ufo.width, ufo.height);
     pop();
+
+
 }

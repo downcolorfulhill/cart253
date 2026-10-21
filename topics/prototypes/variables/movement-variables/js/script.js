@@ -52,6 +52,34 @@ let bird = {
     }
 }
 
+let bird2 = {
+    x: 320,
+    y: 780,
+    size: 10,
+    velocity: {
+        x: 0,
+        y: 0,
+    },
+    // NEW! The minimum velocity for x and y movement. Note that it's NOT ZERO
+    // because we use negative x velocity to move left and negative y
+    // velocity to move up
+    minVelocity: {
+        // Sort of assuming that birds move faster horizontally than vertically...
+        // But maybe that's not true...
+        x: -3,
+        y: -2
+    },
+    // NEW! Same again with the maximum velocity
+    maxVelocity: {
+        x: 3,
+        y: 2
+    },
+    acceleration: {
+        x: 0.025,
+        y: -0.05
+    }
+}
+
 function setup() {
     createCanvas(640, 480);
 }
@@ -72,4 +100,21 @@ function draw() {
 
     // Draw the bird
     ellipse(bird.x, bird.y, bird.size);
+}
+{
+    background(0);
+
+    bird2.velocity.x = bird2.velocity.x + bird2.acceleration.x;
+    bird2.velocity.y = bird2.velocity.y + bird2.acceleration.y;
+
+    // NEW! Constrain the bird's velocity
+    bird2.velocity.x = constrain(bird2.velocity.x, bird2.minVelocity.x, bird2.maxVelocity.x);
+    bird2.velocity.y = constrain(bird2.velocity.y, bird2.minVelocity.y, bird2.maxVelocity.y);
+
+    // Move the bird by adding its velocity in x and y
+    bird2.x = bird2.x + bird2.velocity.x;
+    bird2.y = bird2.y + bird2.velocity.y;
+
+    // Draw the bird
+    ellipse(bird2.x, bird2.y, bird2.size);
 }
